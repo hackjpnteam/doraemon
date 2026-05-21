@@ -1,0 +1,37 @@
+{
+  "name": "@hackjpn/doraemon",
+  "version": "1.0.0",
+  "description": "Future Translation Architect - Transform market problems into 2026-implementable startups",
+  "main": "index.js",
+  "bin": {
+    "doraemon": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Testing doraemon...' && node index.js '日本の製造業' '品質管理プロセスが複雑'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackjpnteam/doraemon.git"
+  },
+  "keywords": [
+    "ai",
+    "startup",
+    "translation",
+    "future",
+    "llm",
+    "claude",
+    "doraemon",
+    "innovation"
+  ],
+  "author": "hackjpn",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
